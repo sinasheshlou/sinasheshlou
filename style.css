@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Baloo Bhai 2';
+  src: url('/fonts/BalooBhai2-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url('/fonts/YanoneKaffeesatz-VariableFont_wght.ttf');
+}
+
+:root{
+    --prim-font:'baloo bhai 2';
+    --nav-color:rgb(25,102,211);
+    --prim-color:rgb(64,123,209);
+    --nav-title-font:'yanone kaffeesatz';
+  
+  }
+  
+  *{
+    margin:0;
+    padding: 0;
+    border-style: none;
+    
+  }
+
+#login-body {
+    background-color: var(--prim-color);
+  }
+  
+  .login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:var(--prim-font);
+    font-weight: bolder;
+  
+    margin: auto;
+    margin-top: 17vh;
+  
+    background-color: white;
+    width: 250px;
+    height: 450px;
+  
+    border-radius: 25px;
+  }
+  
+  #login-heading {
+    color: var(--prim-color);
+    /* font-family:'Baloo Bhai 2';
+    font-weight: bolder; */
+    font-size: 40px;
+    margin-top: 50px;
+  
+  }
+  
+  .box-login {
+    margin-top: 30px;
+    height: 25px;
+  }
+  
+  #submit-btn {
+    margin-top: 50px;
+    background-color: var(--prim-color);
+    color: white;
+    /* font-family:'Baloo Bhai 2'; */
+    border-style: none;
+    width: 170px;
+    height: 25px;
+    margin-bottom: 20px;
+  }
+  
+  #forgot-pass a {
+    font-family:var(--prim-font);
+    color: var(--prim-color);
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width:1135px) {
+    #navbar{
+        height:100px;
+        width:100%;
+        
+    }
+  }
